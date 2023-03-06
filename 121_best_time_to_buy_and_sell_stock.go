@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main() {
+func main_121() {
 	output := maxProfit([]int{7, 1, 5, 3, 6, 4})
 	if output != 5 {
 		log.Fatalf("expected: %d", 5)
