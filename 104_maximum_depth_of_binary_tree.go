@@ -29,3 +29,6 @@ func maxDepthHelper(root *TreeNode, currentDepth int) int {
 		float64(maxDepthHelper(root.Right, currentDepth)),
 	))
 }
+
+// Time complexity: O(n). Worst case scenario if we have a single branch.
+// Space complexity: O(n). Depth of the recursion stack, worst case scenario if we have a single branch.
