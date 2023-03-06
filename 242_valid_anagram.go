@@ -1,11 +1,9 @@
 package main
 
-func main_242() {
-	// s = "anagram", t = "nagaram" -> true
-	// s = "rat", t = "car" -> false
-	// s = "ab", t = "a" -> false
-
-}
+// https://leetcode.com/problems/valid-anagram/
+// s = "anagram", t = "nagaram" -> true
+// s = "rat", t = "car" -> false
+// s = "ab", t = "a" -> false
 
 func isAnagram(s string, t string) bool {
 	letters := make(map[rune]int)

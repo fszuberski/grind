@@ -1,21 +1,12 @@
 package main
 
 import (
-	"log"
 	"math"
 )
 
-func main_121() {
-	output := maxProfit([]int{7, 1, 5, 3, 6, 4})
-	if output != 5 {
-		log.Fatalf("expected: %d", 5)
-	}
-
-	output = maxProfit([]int{7, 6, 4, 3, 1})
-	if output != 5 {
-		log.Fatalf("expected: %d", 0)
-	}
-}
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// [7, 1, 5, 3, 6, 4] -> 5
+// [7, 6, 4, 3, 1] -> 0
 
 func maxProfit(prices []int) int {
 	// from the back

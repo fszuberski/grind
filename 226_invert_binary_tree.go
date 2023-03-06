@@ -1,10 +1,9 @@
 package main
 
-func main_226() {
-	// [4,2,7,1,3,6,9] -> [4,7,2,9,6,3,1]
-	// [2,1,3] -> [2,3,1]
-	// [] -> []
-}
+// https://leetcode.com/problems/invert-binary-tree/
+// [4,2,7,1,3,6,9] -> [4,7,2,9,6,3,1]
+// [2,1,3] -> [2,3,1]
+// [] -> []
 
 // Recursive
 func invertTree(root *TreeNode) *TreeNode {

@@ -1,12 +1,9 @@
 package main
 
 // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
-func main_235() {
-
-	// [6,2,8,0,4,7,9,null,null,3,5], 2, 8 -> 6
-	// [6,2,8,0,4,7,9,null,null,3,5], 2, 4 -> 2
-	// [2,1], 2, 1 -> 2
-}
+// [6,2,8,0,4,7,9,null,null,3,5], 2, 8 -> 6
+// [6,2,8,0,4,7,9,null,null,3,5], 2, 4 -> 2
+// [2,1], 2, 1 -> 2
 
 /**
  * Definition for a binary tree node.
